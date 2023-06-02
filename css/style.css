@@ -70,5 +70,24 @@ img {
 }
 
 .navbar-brand span {
-    color: #ff4d29;
+    color: #ff4d29;    
 }
+
+/* BTN */
+
+.btn {
+    padding: 9px 24px; 
+    font-weight: 500 !important;    
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: #fff;
+    border-color: #ff4d29 ;
+}
+
+.btn-brand:hover {
+    background-color: #c83417;
+    color: #fff;
+}
+
