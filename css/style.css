@@ -23,6 +23,12 @@ img {
     width: 100%;
 }
 
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
 /* NAVBAR */
 
 .top-nav {
