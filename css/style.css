@@ -146,3 +146,9 @@ img {
 .owl-next:hover {
    background-color: #ff4d29 !important;
 }
+
+/* ABOUT SECTION */
+/* INFO BOX */
+.info-box img {
+   width: unset;
+}
