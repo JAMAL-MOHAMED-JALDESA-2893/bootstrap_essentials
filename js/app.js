@@ -3,7 +3,8 @@ $(document).ready(function () {
     $("#hero-slider").owlCarousel({
       loop: true,
       margin: 10,
-      nav: true,
+        nav: true,
+        items:1,
       responsive: {
         0: {
           
