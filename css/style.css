@@ -27,6 +27,11 @@ img {
   width: 100%;
 }
 
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .bg-cover {
   background-position: center !important;
   background-size: cover !important;
@@ -149,6 +154,14 @@ img {
 
 /* ABOUT SECTION */
 /* INFO BOX */
+
+.info-box {
+  display: flex;
+  align-items: center;
+  
+}
+
 .info-box img {
    width: unset;
+   margin-right: 14px;
 }
