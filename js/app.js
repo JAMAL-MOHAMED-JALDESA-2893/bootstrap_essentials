@@ -4,6 +4,7 @@ $(document).ready(function () {
       loop: true,
       margin: 0,
         nav: true,
+        dots: false,
         items: 1,
         smartSpeed:1000,
       responsive: {
