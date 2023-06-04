@@ -59,6 +59,12 @@ img {
     color: #ff4d29;
 }
 
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active
+{
+  color: #ff4d29;
+}
+
 .navbar {
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
 }
