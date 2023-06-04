@@ -1,18 +1,18 @@
 $(document).ready(function () {
     //HERO SLIDER
-    $(".owl-carousel").owlCarousel({
+    $("#hero-slider").owlCarousel({
       loop: true,
       margin: 10,
       nav: true,
       responsive: {
         0: {
-          items: 1,
+          
         },
         600: {
-          items: 3,
+          
         },
         1000: {
-          items: 5,
+          
         },
       },
     });
