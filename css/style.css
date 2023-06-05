@@ -165,3 +165,10 @@ section {
    width: 90px;
    margin-right: 24px;
 }
+ 
+
+/* MILESTONE */
+#milestone {
+   background: linear-gradient(#ff4d29, #ff4d29),
+    url(../img/bg_banner2.jpg);
+}
