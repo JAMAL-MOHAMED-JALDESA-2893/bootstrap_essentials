@@ -161,6 +161,20 @@ section {
   
 }
 
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h6 {
+  font-weight: 400;
+  color: #ff4d29;
+}
+
+.intro p {
+  max-width: 500px;
+  margin: auto;
+}
+
 .info-box img {
    width: 90px;
    margin-right: 24px;
