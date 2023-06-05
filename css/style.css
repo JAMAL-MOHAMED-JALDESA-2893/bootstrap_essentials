@@ -169,6 +169,17 @@ section {
 
 /* MILESTONE */
 #milestone {
-   background: linear-gradient(#ff4d29, #ff4d29),
+   background: linear-gradient(rgba(255, 77, 41, 0.9), rgba(255, 77, 41, 0.9)),
     url(../img/bg_banner2.jpg);
 }
+
+#milestone .display-4,
+#milestone p{
+   color: #fff;
+}
+
+#milestone .display-4 {
+  font-weight: 700;
+}
+
+/* SERVICES */
