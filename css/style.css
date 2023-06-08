@@ -200,4 +200,15 @@ section {
 .service-box {
   padding: 32px;
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
 }
+
+.service-box img {
+  width: unset;
+  }
+
+  .service-box h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    
+  }
