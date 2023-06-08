@@ -3,27 +3,6 @@ $(document).ready(function () {
   $("#hero-slider").owlCarousel({
     loop: true,
     margin: 0,
-    nav: false,
-    dots: false,
-    items: 1,
-    smartSpeed: 1000,
-    responsive: {
-      0: {
-        
-      },
-      768: {
-        items: 2,
-      },
-      1140: {
-        items: 2,
-      },
-    },
-  });
-
-  //PROJECT SLIDER
-  $("#project-slider").owlCarousel({
-    loop: true,
-    margin: 0,
     nav: true,
     dots: false,
     items: 1,
@@ -35,6 +14,24 @@ $(document).ready(function () {
       },
       768: {
         nav: true,
+      },
+    },
+  });
+
+  //PROJECT SLIDER
+  $("#project-slider").owlCarousel({
+    loop: true,
+    margin: 0,
+    dots: false,
+    nav: false,
+    smartSpeed: 1000,
+    responsive: {
+      0: {},
+      768: {
+        items: 2,
+      },
+      1140: {
+        items: 2,
       },
     },
   });
