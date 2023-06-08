@@ -25,6 +25,7 @@ $(document).ready(function () {
     dots: false,
     nav: false,
     smartSpeed: 1000,
+    margin:24,
     responsive: {
       0: {},
       768: {
