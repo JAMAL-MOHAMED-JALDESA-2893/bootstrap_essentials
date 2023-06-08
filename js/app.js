@@ -3,21 +3,18 @@ $(document).ready(function () {
     $("#hero-slider").owlCarousel({
       loop: true,
       margin: 0,
-        nav: true,
-        dots: false,
-        items: 1,
-        smartSpeed: 1000,
-        navText:['PREV', 'NEXT'],
+      nav: true,
+      dots: false,
+      items: 1,
+      smartSpeed: 1000,
+      navText: ["PREV", "NEXT"],
       responsive: {
         0: {
-          
+          nav: false,
         },
-        600: {
-          
-        },
-        1000: {
-          
-        },
+        0: {
+          nav: true,
+        }
       },
     });
 })
