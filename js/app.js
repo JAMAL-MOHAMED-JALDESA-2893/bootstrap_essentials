@@ -33,6 +33,7 @@ $(document).ready(function () {
       },
       1140: {
         items: 2,
+        center: true,
       },
     },
   });
