@@ -196,7 +196,7 @@ section {
   font-weight: 700;
 }
 
-/* SERVICES */
+/* SERVICES SECTION*/
 .service-box {
   padding: 32px;
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
@@ -213,7 +213,7 @@ section {
     
   }
 
-  /* PROJECT */
+  /* PROJECT SECTION */
   
   #project-slider .owl-next,
   #project-slider .owl-prev
@@ -265,4 +265,11 @@ section {
     display: inline-block;
     vertical-align: middle;
     margin-right: 12px;
+  }
+
+  /* TEAM SECTION */
+
+  .team-member{
+    position: relative;
+    overflow: hidden;
   }
