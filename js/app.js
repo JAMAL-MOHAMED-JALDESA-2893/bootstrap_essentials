@@ -43,6 +43,16 @@ $(document).ready(function () {
       },
     },
   });
+
+  //REVIEWS SLIDER
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    
+  });
+
+
 });
 
 
