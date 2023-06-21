@@ -28,7 +28,11 @@ $(document).ready(function () {
     smartSpeed: 1000,
     margin: 24,
     responsive: {
-      0: {},
+      0: {
+        items: 1,
+        nav: false,
+        margin:0,
+      },
       768: {
         items: 2,
       },
