@@ -226,3 +226,31 @@ section {
     bottom: 0;
     left: 0;
   }
+
+  .project .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+  }
+
+  .project h2,
+  .project h6 {
+    color: #fff;
+  }
+
+  .project h6{
+     font-size: 14px;
+     text-transform: capitalize;
+  }
+
+  .project h6::before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: #ff4d29;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+  }

@@ -22,7 +22,7 @@ $(document).ready(function () {
   $("#project-slider").owlCarousel({
     loop: true,
     margin: 0,
-    dots: false,
+    dots: true,
     nav: false,
     smartSpeed: 1000,
     margin:24,
