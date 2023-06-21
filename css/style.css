@@ -214,6 +214,13 @@ section {
   }
 
   /* PROJECT */
+  
+  #project-slider .owl-next,
+  #project-slider .owl-next
+  {
+      background-color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .project {
     position: relative;
   }

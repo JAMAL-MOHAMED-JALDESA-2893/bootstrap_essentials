@@ -22,10 +22,11 @@ $(document).ready(function () {
   $("#project-slider").owlCarousel({
     loop: true,
     margin: 0,
-    dots: true,
-    nav: false,
+    dots: false,
+    nav: true,
+    navText: ["PREV", "NEXT"],
     smartSpeed: 1000,
-    margin:24,
+    margin: 24,
     responsive: {
       0: {},
       768: {
