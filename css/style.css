@@ -269,20 +269,23 @@ section {
 
   /* TEAM SECTION */
 
-  .team-member{
+  .team-member .img-wrapper{
     position: relative;
     overflow: hidden;
   }
 
   .team-member .overlay{
     position: absolute;
-    top: 0;
+    top: -10%;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #c83417;
+    background-color: rgba(255, 0, 0, 0.51);
   }
 
-  .team-member .content{
-    
+  .team-member .social-links{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
   }
