@@ -361,4 +361,8 @@ section {
    padding: 4px 12px;
    background-color: #ff4d29;
    color: #fff;
+   border-radius: 100px;
+   top: 20px;
+   left: 20px;
+   position: absolute;
 }
