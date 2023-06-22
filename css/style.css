@@ -350,3 +350,15 @@ section {
 .owl-dot.active span{
   background-color: #ff4d29 !important;
 }
+
+/* BLOG-POST */
+
+.blog-post{
+  position: relative;
+}
+
+.blog-post .tag{
+   padding: 4px 12px;
+   background-color: #ff4d29;
+   color: #fff;
+}
