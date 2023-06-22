@@ -346,3 +346,7 @@ section {
 .review p {
   margin-top: 28px;
 }
+
+.owl-dot.active span{
+  background-color: #ff4d29 !important;
+}
