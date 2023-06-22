@@ -319,12 +319,30 @@ section {
 }
 
 .review{
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   text-align: center;
+}
+
+.review h4{
+  margin-top: 16px;
 }
 
 .review img{
   width: 85px !important;
   border-radius: 100px;
+  margin: auto;
+}
+
+.review h4,
+.review p{
+  color: #fff;
+}
+
+.review small{
+  color: #ff4d29;
+}
+
+.review p {
+  margin-top: 28px;
 }
